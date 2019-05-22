@@ -661,7 +661,7 @@ h1{
 @media only screen and (max-width: 770px){
 /* homepage -------------------------------------------------------------------------------*/
     #rainbowBall{
-        display: none;
+        /* display: none;
     }
 
     #homepagebox{
@@ -710,46 +710,36 @@ h1{
 
     section h6{
         margin-top: 0;
-    }
+    } */
 
 /* Nav  -----------------------------------------------------------------------------*/
-li {
+/* li {
     font-size: 1.5em;
  }
 
  li a {
     padding: 14px 14px;
- }
+ } */
 
  /* projects-------------------------------------------------------------------------- */
 
- #projectbg div {
-    /* display: flex;
-    flex-wrap: wrap;
-    width: auto;
-    height: auto; */
+ /* #projectbg div {
     flex: 1 1 45%;
     max-width: 45%;
-    /* justify-content: space-around; */
 }
 
 video {
-    /* margin: 0 auto; */
     max-width: 300px;
     max-height: 300px;
-    /* width: auto;
-    height: auto; */
     flex: 2 1 300px;
-    /* padding: 20px; */
-    /* -webkit-transform: translateZ(0); put videos behind nav */
 }
 
 #projectbg h4{
     height: 120px;
-}
+} */
 
 /* About -----------------------------------------------------------------------------*/
-
+/* 
 #aboutText{
     max-width:55%;
     margin: 2vh 1vh 1vh 1vh;
@@ -760,26 +750,75 @@ video {
     margin: 5vh 1vh 1vh 0;
     max-width: 35%;
     width: 35vw;
-}
+} */
 
 /* TechStack/Skills ----------------------------------------------------------------- */
-#techStackPics div{
+/* #techStackPics div{
     flex: 1 1 200px;
-}
+} */
 
 /* Contact -------------------------------------------------------------------------- */
 
 #contactArea div{
-    margin: 8% 1vw;
+    /* margin: 8% 1vw;
+} */
 }
-}
-
+    }
 
 /* Mobile ----------------------------------------------------------------------------*/
 /* Mobile ----------------------------------------------------------------------------*/
 /* Mobile ----------------------------------------------------------------------------*/
 
 @media only screen and (max-width: 360px){
+
+/* Homepage ------------------------------------------------------------------------*/
+#homepagebox{
+    height: 25%;
+    width: 98%;
+}
+
+#homepageBoxBack{
+    height: 99%;
+    width: 97%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#HomeHeading{
+    position: absolute;
+    top: 0;
+    left: 25%;
+}
+
+#HomeHeading h1, h3{
+    padding: 0;
+    font-size: 1.3em;
+    margin-left: 1vw;
+}
+
+#circle{
+    margin: 4vh 2vw;
+}
+
+section{
+    width: 100%;
+    position: absolute;
+    top: 30%;
+    left: 0;
+}
+
+section img{
+    width: 150px;
+    height: 150px;
+}
+
+section div a{
+    font-size: 3em; 
+}
+
+section h6{
+    margin-top: 0;
+}
 
 /* Nav -------------------------------------------------------------------------------*/
 li {
@@ -821,6 +860,7 @@ video {
     max-width: 100%;
     justify-content: center;
 }
+
 #aboutText{
     width:60vw;
     margin: 0 1vw;
