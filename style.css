@@ -802,7 +802,8 @@ h1{
 
     #contactArea div{
         justify-content: center;
-        flex: 2 1 150px;
+        width: 50vw;
+        margin-top: 20px;
     }
 
     .contactClass{
@@ -812,6 +813,7 @@ h1{
 
     #contactArea h2{
         margin-left: 0;
+        margin-bottom: 0;
         min-width: 150px;
         text-align: center;
         color: rgb(78, 118, 228);
