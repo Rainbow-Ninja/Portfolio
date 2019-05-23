@@ -403,7 +403,7 @@ video {
 
 .row{
     display: flex;
-    flex-wrap: no-wrap;
+    flex-wrap: nowrap;
 }
 
 #aboutImages div img{
@@ -877,11 +877,13 @@ video {
 #aboutText p{
     padding: 12% 0 0 0;
     width: 100%;
+    text-align: left;
 }
 
 #about #aboutImages{
     margin: 10vw 0;
     width: 35vw;
+    max-height: 90%;
 }
 
 #aboutImages div img{
