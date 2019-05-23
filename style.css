@@ -579,7 +579,8 @@ h1{
     z-index: 10;
     font-size: 3em;
     font-weight: bold;
-    border:0;    
+    border:0;
+    text-shadow: -5px -5px 5px #111, 0 0 0.5em aqua;    
 }
 
 /* Animations ---------------------------------------------------------------------- */
@@ -660,7 +661,7 @@ h1{
 
 @media only screen and (max-width: 770px){
 /* homepage -------------------------------------------------------------------------------*/
-    #rainbowBall{
+    /* #rainbowBall{ */
         /* display: none;
     }
 
@@ -814,11 +815,17 @@ section img{
 
 section div a{
     font-size: 3em; 
+    /* color: rgb(195, 63, 247);
+    transform: none; */
 }
 
 section h6{
     margin-top: 0;
 }
+
+/* section div h6:hover{
+    transform: none;
+} */
 
 /* Nav -------------------------------------------------------------------------------*/
 li {
