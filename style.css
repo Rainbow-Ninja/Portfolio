@@ -374,6 +374,14 @@ video {
     text-align: justify;
 }
 
+#workStudy span a{
+    color: rgba(78, 118, 228, 1);
+}
+
+#workStudy span a:hover{
+    color: rgba(132, 62, 245, 0.7);
+}
+
 #about #aboutImages{
     display: flex;
     flex-wrap: wrap;
@@ -696,6 +704,7 @@ h1{
 
     section h6{
         margin: 1vh 0 4vh 0;
+        text-decoration: underline;
     }
 
     section div h6:hover{
